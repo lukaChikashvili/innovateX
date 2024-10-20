@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='bg-gradient-to-br from-pink-400 to-transparent opacity-50 rounded-full w-80 h-80 absolute -bottom-10 -right-6 animate-pulse'></div>
      </div>
 
-<div className='flex items-center flex-col justify-center gap-8 -mt-[8rem]'>
+<div className='flex items-center flex-col justify-center gap-8 -mt-[4rem]'>
         <h1 className='text-9xl text-center title'>Design the Future Today</h1>
         <h2 className='text-xl'>We blend <span className='text-[#F05A7E] font-bold'>creativity</span> and <span className='text-[#F05A7E] font-bold'>technology</span> to deliver groundbreaking digital experiences</h2>
           <div className='mt-[2rem]'>

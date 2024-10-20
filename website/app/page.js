@@ -1,10 +1,12 @@
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import Story from "@/components/Story";
+
 
 export default function Home() {
   return (
     <div>
       <Hero />
+      <Story />
     </div>
   );
 }
