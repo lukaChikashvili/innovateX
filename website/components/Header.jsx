@@ -14,7 +14,7 @@ const Header = () => {
             <Link href = '/contact'>More</Link>
         </nav>
 
-        <Link href = "/" className='flex items-center gap-4 bg-[#A02334] px-4 py-1 rounded shadow-lg shadow-black btn'> 
+        <Link href = "/" className='flex items-center gap-4 bg-[#F05A7E] px-4 py-1 rounded shadow-lg shadow-black btn'> 
         Gete Started <ChevronsRight  className=' transition-opacity duration-300 ease-in-out opacity-0 lucide-react'  /> </Link>
     </div>
   )
