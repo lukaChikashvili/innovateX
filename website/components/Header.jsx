@@ -1,16 +1,20 @@
 import Link from 'next/link'
 import React from 'react'
+import { MoveRight } from 'lucide-react'
 
 const Header = () => {
   return (
-    <div className='w-full flex items-center justify-between px-12 py-2'>
-        <h1>logo</h1>
+    <div className='w-full flex items-center justify-between p-8 px-16 text-white'>
+        <h1 className='text-2xl'>InnovateX</h1>
 
-        <nav className='flex gap-4'>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
-            <Link href = '/contact'>contact</Link>
+        <nav className='hidden md:flex gap-8 text-xl '>
+            <Link href='/'>Features</Link>
+            <Link href='/about'>Services</Link>
+            <Link href = '/contact'>Contact</Link>
+            <Link href = '/contact'>More</Link>
         </nav>
+
+        <Link href = "/" className='flex items-center gap-4'> Gete Started <MoveRight /> </Link>
     </div>
   )
 }
