@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { MoveRight } from 'lucide-react'
+import { ChevronLeft, ChevronsRight, MoveRight } from 'lucide-react'
 
 const Header = () => {
   return (
@@ -14,7 +14,8 @@ const Header = () => {
             <Link href = '/contact'>More</Link>
         </nav>
 
-        <Link href = "/" className='flex items-center gap-4'> Gete Started <MoveRight /> </Link>
+        <Link href = "/" className='flex items-center gap-4 bg-[#A02334] px-4 py-1 rounded shadow-lg shadow-black btn'> 
+        Gete Started <ChevronsRight  className=' transition-opacity duration-300 ease-in-out opacity-0 lucide-react'  /> </Link>
     </div>
   )
 }
