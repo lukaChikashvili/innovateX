@@ -16,7 +16,7 @@ const Contact = () => {
 
 
           <div className="lg:w-1/2 w-full">
-          <form className="space-y-6 p-8 rounded-lg shadow-lg">
+          <form className="space-y-6 p-8 ">
             <div>
               <label className="block text-sm mb-2" htmlFor="name">Name</label>
               <input
@@ -62,6 +62,8 @@ const Contact = () => {
           </form>
         </div>
         </div>
+
+        <hr />
     </div>
   )
 }
