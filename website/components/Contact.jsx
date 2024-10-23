@@ -2,21 +2,19 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='w-full min-h-screen p-12 text-white  relative'>
-     <div className='bg-gradient-to-tl from-pink-400 to-transparent opacity-50 rounded-full w-96 h-96 absolute -top-20 -left-24 animate-pulse -z-10'></div>
-        <div className='bg-gradient-to-br from-gray-400 to-transparent opacity-50 rounded-full w-80 h-80 absolute -bottom-10 -right-6 animate-pulse -z-10'></div>
+    <div className='w-full min-h-screen p-6 md:p-12 text-white relative'>
+      <div className='bg-gradient-to-tl from-pink-400 to-transparent opacity-50 rounded-full w-60 h-60 md:w-96 md:h-96 absolute -top-10 md:-top-20 -left-10 md:-left-24 animate-pulse -z-10'></div>
+      <div className='bg-gradient-to-br from-gray-400 to-transparent opacity-50 rounded-full w-60 h-60 md:w-80 md:h-80 absolute -bottom-6 md:-bottom-10 -right-4 md:-right-6 animate-pulse -z-10'></div>
 
-        <h1 className='text-[4rem] p-12 story mt-[3rem]'>Contact us</h1>
+      <h1 className='text-[2.5rem] md:text-[4rem] p-6 md:p-12 story mt-[2rem] md:mt-[3rem]'>Contact us</h1>
 
-        <div className='w-full flex items-center justify-between mx-auto p-12 gap-12'>
-        <p className="text-5xl w-1/2 leading-[4rem]">
-            We're here to help! Feel free to reach out to us if you have any
-            questions, suggestions, or concerns. We'd love to hear from you.
-          </p>
+      <div className='flex flex-col lg:flex-row items-center justify-between mx-auto p-6 md:p-12 gap-8 md:gap-12'>
+        <p className="text-[1.8rem] md:text-4xl leading-[2.5rem] md:leading-[4rem] w-full lg:w-1/2">
+          We're here to help! Feel free to reach out to us if you have any questions, suggestions, or concerns. We'd love to hear from you.
+        </p>
 
-
-          <div className="lg:w-1/2 w-full">
-          <form className="space-y-6 p-8 ">
+        <div className="w-full lg:w-1/2">
+          <form className="space-y-6 p-6 md:p-8 ">
             <div>
               <label className="block text-sm mb-2" htmlFor="name">Name</label>
               <input
@@ -61,9 +59,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        </div>
+      </div>
 
-        <hr />
+      <hr className='border-gray-600 mt-12' />
     </div>
   )
 }
