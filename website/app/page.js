@@ -1,7 +1,9 @@
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Members from "@/components/Members";
 import Story from "@/components/Story";
 import Testimonials from "@/components/Testimonials";
+
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
       <Story />
       <Members />
       <Testimonials />
+      <Contact />
     </div>
   );
 }
