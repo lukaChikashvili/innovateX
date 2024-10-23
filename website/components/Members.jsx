@@ -41,9 +41,9 @@ const Members = () => {
 
         <div className='flex items-center gap-12'>
             {members.map((value) => (
-                    <div key={value.id} className='flex flex-col gap-4'>
+                    <div key={value.id} className='flex flex-col gap-4 perspective-1000'>
                        <Image src={value.img} alt='developer' className='w-full shadow-lg shadow-black 
-                       rounded-md duration-500 ease-in-out hover:grayscale'/>
+                       rounded-md transform  duration-500 ease-in-out hover:grayscale hover:rotate-x-30 '/>
                        <h2 className='text-2xl text-center underline underline-offset-8 decoration-[#F05A7E]'>{value.name}</h2>
                        <p className='text-center'>{value.job}</p>
                        <div className='flex items-center gap-6 justify-center'>
