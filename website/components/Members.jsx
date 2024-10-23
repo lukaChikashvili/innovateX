@@ -2,6 +2,7 @@ import React from 'react'
 import dev from '../assets/developer.jpg'
 import designer from '../assets/designer.jpg'
 import design from '../assets/3d.jpg'
+import boss from '../assets/boss.jpg'
 import Image from 'next/image';
 import { Instagram, Linkedin, Mail } from 'lucide-react';
 
@@ -29,6 +30,28 @@ const Members = () => {
             img: design
         },
 
+        {
+            id: 4,
+            name: "Maya Chen",
+            job: "Front-End Developer",
+            img: dev
+        },
+
+        {
+            id: 5,
+            name: "Oliver Russo",
+            job: " Creative Director",
+            img: designer
+        },
+
+        {
+            id: 6,
+            name: "Elena Novikova",
+            job: "Brand Experience Designer",
+            img: boss
+        },
+
+
 
     ];
 
@@ -39,7 +62,7 @@ const Members = () => {
 
         <h1 className='text-[4rem] p-12 story mt-[3rem]'>Our Team</h1>
 
-        <div className='flex items-center gap-12'>
+        <div className='grid grid-cols-3 gap-12 '>
             {members.map((value) => (
                     <div key={value.id} className='flex flex-col gap-4 perspective-1000'>
                        <Image src={value.img} alt='developer' className='w-full shadow-lg shadow-black 
