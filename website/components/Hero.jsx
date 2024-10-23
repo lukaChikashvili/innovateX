@@ -1,27 +1,30 @@
-import {  ChevronsDown } from 'lucide-react'
-import React from 'react'
+import { ChevronsDown } from 'lucide-react';
+import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='w-3/5 m-auto min-h-screen flex  items-center justify-center text-white '>
+    <div className='w-full max-w-screen-lg m-auto min-h-screen flex items-center justify-center text-white px-4 lg:px-0'>
+      <div className='absolute w-full h-screen top-0 left-0 -z-10'>
+        <div className='bg-gradient-to-tl from-blue-400 to-transparent opacity-50 rounded-full w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 absolute -top-10 sm:-top-16 -left-16 animate-pulse'></div>
+        <div className='bg-gradient-to-br from-pink-400 to-transparent opacity-50 rounded-full w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 absolute -bottom-6 sm:-bottom-10 -right-4 lg:-right-6 animate-pulse'></div>
+      </div>
 
-     <div className="absolute w-full h-screen top-0 left-0 -z-10 ">
-        <div className='bg-gradient-to-tl from-blue-400 to-transparent opacity-50 rounded-full w-96 h-96 absolute -top-20 -left-20 animate-pulse'></div>
-        <div className='bg-gradient-to-br from-pink-400 to-transparent opacity-50 rounded-full w-80 h-80 absolute -bottom-10 -right-6 animate-pulse'></div>
-     </div>
-
-<div className='flex items-center flex-col justify-center gap-8 -mt-[4rem]'>
-        <h1 className='text-9xl text-center title'>Design the Future Today</h1>
-        <h2 className='text-xl'>We blend <span className='text-[#F05A7E] font-bold'>creativity</span> and <span className='text-[#F05A7E] font-bold'>technology</span> to deliver groundbreaking digital experiences</h2>
-          <div className='mt-[2rem]'>
-              <p className='flex items-center gap-4 animate-fade-bounce'>Scroll to explore <ChevronsDown className='arrow-icon' /></p>
-          </div>
+      <div className='flex items-center flex-col justify-center gap-6 sm:gap-8 -mt-[2rem] md:-mt-[4rem]'>
+        <h1 className='text-5xl sm:text-6xl md:text-8xl lg:text-9xl w-4/5 text-center title leading-tight'>
+          Design the Future Today
+        </h1>
+        <h2 className='text-lg sm:text-xl md:text-xl lg:text-xl text-center'>
+          We blend <span className='text-[#F05A7E] font-bold'>creativity</span> and{' '}
+          <span className='text-[#F05A7E] font-bold'>technology</span> to deliver groundbreaking digital experiences
+        </h2>
+        <div className='mt-6 sm:mt-8'>
+          <p className='flex items-center gap-4 animate-fade-bounce text-base sm:text-lg md:text-xl'>
+            Scroll to explore <ChevronsDown className='arrow-icon' />
+          </p>
         </div>
-
-        
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
