@@ -112,7 +112,7 @@ const Testimonials = () => {
             {index === current && (
               <div className="text-center max-w-lg mx-auto p-4 md:p-6 flex flex-col gap-4">
                 <Image src={testimonial.img} className='w-40 md:w-60 lg:w-80 m-auto rounded-full shadow-lg shadow-black' />
-                <p className="text-lg md:text-xl mb-4">"{testimonial.message}"</p>
+                <p className="text-lg md:text-xl mb-4">&ldquo;{testimonial.message}&rdquo;</p>
                 <h3 className="text-md md:text-lg font-bold">{testimonial.name}</h3>
                 <p className="text-sm md:text-md text-gray-400">{testimonial.position}</p>
               </div>
@@ -128,7 +128,7 @@ const Testimonials = () => {
 
       <hr className='border-gray-600 mt-12' />
     </div>
-  )
+  );
 }
 
 export default Testimonials;

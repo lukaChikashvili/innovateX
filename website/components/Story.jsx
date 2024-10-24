@@ -111,11 +111,11 @@ const addToRefs = (el) => {
       <div className='flex flex-col lg:flex-row items-center justify-between px-4 md:px-[4rem]'>
         <div className='flex flex-col gap-4 md:gap-8'>
           <p ref={addToRefs} className='w-full md:w-4/5 text-[1.1rem] md:text-[1.3rem] lg:text-[1.5rem]'>
-            Our journey started in a cozy corner of Tbilisi, fueled by a desire to transform the web landscape. From the beginning, we understood that every brand has a unique story to tell. We set out to craft tailored solutions that not only reflect our clients’ values but also resonate with their target audiences.
+         "Our journey started in a cozy corner of Tbilisi, fueled by a desire to transform the web landscape. From the beginning, we understood that every brand has a unique story to tell. We set out to craft tailored solutions that not only reflect our clients values but also resonate with their target audiences."
           </p>
 
           <p ref={addToRefs} className='w-full md:w-4/5 text-[1.1rem] md:text-[1.3rem] lg:text-[1.5rem]'>
-            At InnovateX, we believe in collaboration and transparency. We partner with our clients to understand their goals, challenges, and aspirations. This approach allows us to create innovative strategies that drive results and foster lasting relationships.
+          "At InnovateX, we believe in collaboration and transparency. We partner with our clients to understand their goals, challenges, and aspirations. This approach allows us to create innovative strategies that drive results and foster lasting relationships. "
           </p>
         </div>
 
