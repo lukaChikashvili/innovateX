@@ -2,6 +2,7 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import Header from "@/components/Header";
+import SmoothScroll from "@/components/SmoothScroll";
 
 
 export const metadata = {
@@ -15,9 +16,13 @@ export default function RootLayout({ children }) {
     
       <body
       >
+          <SmoothScroll>
         <Header />
+      
         {children}
+       
         <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

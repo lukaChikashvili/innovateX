@@ -2,11 +2,10 @@
 import { ChevronsDown } from 'lucide-react';
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SplitType from 'split-type'
 
 
-gsap.registerPlugin(ScrollTrigger);
+
 
 const Hero = () => {
   const titleRef = useRef(null);
