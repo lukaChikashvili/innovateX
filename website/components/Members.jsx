@@ -3,6 +3,8 @@ import dev from '../assets/developer.jpg'
 import designer from '../assets/designer.jpg'
 import design from '../assets/3d.jpg'
 import boss from '../assets/boss.jpg'
+import devel from '../assets/dev.jpg'
+import dir from '../assets/dir.jpg'
 import Image from 'next/image';
 import { Instagram, Linkedin, Mail } from 'lucide-react';
 
@@ -34,14 +36,14 @@ const Members = () => {
             id: 4,
             name: "Maya Chen",
             job: "Front-End Developer",
-            img: dev
+            img: devel
         },
 
         {
             id: 5,
             name: "Oliver Russo",
             job: "Creative Director",
-            img: designer
+            img: dir
         },
 
         {
