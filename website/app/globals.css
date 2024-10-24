@@ -104,7 +104,7 @@ nav a:hover {
 	               0 5px 10px rgba(0,0,0,.2),
 	              0 10px 10px rgba(0,0,0,.2),
 	              0 20px 20px rgba(0,0,0,.3);    
-       
+       min-width: 60%;
 
 }
 
@@ -145,4 +145,11 @@ nav a:hover {
   bottom: 30px;
   
 
+}
+
+
+h1, h2, p {
+ 
+   
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
