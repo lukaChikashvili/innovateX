@@ -10,7 +10,7 @@ const Contact = () => {
 
       <div className='flex flex-col lg:flex-row items-center justify-between mx-auto p-6 md:p-12 gap-8 md:gap-12'>
         <p className="text-[1.8rem] md:text-4xl leading-[2.5rem] md:leading-[4rem] w-full lg:w-1/2">
-          We're here to help! Feel free to reach out to us if you have any questions, suggestions, or concerns. We'd love to hear from you.
+          We&apos;re here to help! Feel free to reach out to us if you have any questions, suggestions, or concerns. We&apos;d love to hear from you.
         </p>
 
         <div className="w-full lg:w-1/2">
@@ -66,4 +66,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;

@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import Header from "@/components/Header";
 import SmoothScroll from "@/components/SmoothScroll";
+import Head from "next/head";
 
 
 export const metadata = {
@@ -13,7 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    
+    <Head>
+    <link rel="icon" type="image/jpg" sizes="32x32" href="/logo.jpg" />
+    </Head>
       <body
       >
           <SmoothScroll>
@@ -24,6 +27,7 @@ export default function RootLayout({ children }) {
         <Footer />
         </SmoothScroll>
       </body>
+    
     </html>
   );
 }
